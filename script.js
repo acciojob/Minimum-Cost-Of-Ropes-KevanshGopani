@@ -14,7 +14,7 @@ function calculateMinCost() {
   let arr = str.map((str) => parseInt(str));
 
   let total = 0;
-  arr = arr.sort(compare());
+  arr = arr.sort(compare);
   while (arr.length >= 2) {
     let sum = arr[0] + arr[1];
  
